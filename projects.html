@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Aarav Mehta</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ff88;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+     
+  height: 100%;
+  overflow-y: auto; /* Always allow vertical scroll */
+
+
+    }
+
+    .projects-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #111;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff88;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .project {
+      background-color: #0a0a0a;
+      border: 2px solid #00ff88;
+      border-radius: 12px;
+      padding: 20px;
+      width: 330px; /* Increased width slightly */
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ff88;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project a {
+      text-decoration: none;
+      color: #00ff88;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      transition: color 0.3s;
+    }
+
+    .project a:hover {
+      color: #00cc6a;
+    }
+
+    .project-details {
+      text-align: left;
+      margin-top: 10px;
+      color: #ffffff; /* White color for explanation text */
+      max-height: 150px; /* Limit height to avoid overflow */
+      overflow-y: auto; /* Add vertical scrollbar */
+      padding-right: 10px; /* Small right padding so scrollbar doesn't cover text */
+      list-style-position: inside; /* Bullets stay inside the box */
+      width: 100%;
+    }
+
+    /* Optional: Customize scrollbar */
+    .project-details::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .project-details::-webkit-scrollbar-thumb {
+      background: #00ff88;
+      border-radius: 10px;
+    }
+
+    .project-details::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="projects-container" data-aos="fade-up" data-aos-duration="1000">
+    <h1>My Projects</h1>
+
+    <div class="projects">
+
+      <div class="project">
+        <img src="movieIMG.png" alt="Project 1">
+        <a href="https://dynamic1moviecenter.netlify.app/" target="_blank">Dynamic Movie Search WebApp</a>
+        <ul class="project-details">
+          <li>Built a responsive web app to search movies using TMDB API.</li>
+          <li>Implemented dynamic trending section updated via Appwrite without backend coding.</li>
+          <li>Optimized API calls with 500ms debounce for smooth user experience and reduced crashes.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <img src="mazaarIMG.png" alt="Project 2">
+        <a href="https://mazzarr.netlify.app/" target="_blank">Mazaar E-Commerce</a>
+        <ul class="project-details">
+          <li>Developed a sleek and modern e-commerce website for seamless online shopping.</li>
+          <li>Integrated responsive product listings, cart system, and basic checkout flow.</li>
+          <li>Focused on pixel-perfect design, speed optimization, and intuitive UI/UX.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nageshwar. All rights reserved.
+  </footer>
+
+</body>
+
+</html>

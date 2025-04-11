@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Nageshwar</title>
+    
+    <style>
+        html, body {
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #00ff88;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0 0 40px 0;
+        }
+
+        .about-container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 20px;
+            background: #111;
+            border-radius: 12px;
+            box-shadow: 0 0 20px #00ff88;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            color: #00ff88; /* Green heading */
+            font-size: 3rem;
+            margin-bottom: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: #ccc;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        strong {
+            color: #00ff88;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #00ff88;
+            color: #0a0a0a;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: default;
+        }
+
+        .skills li:hover {
+            background-color: #00cc6a;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="about-container" data-aos="fade-up" data-aos-duration="1000">
+        <h1>About Me</h1>
+        <p>Hi, I'm <strong>Nageshwar</strong>, a passionate Computer Science student from <strong>Lovely Professional
+                University, Phagwara</strong>, specializing in:</p>
+
+        <div class="skills">
+            <ul>
+                <li>AWS and Azure</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+            </ul>
+        </div>
+
+        <p>I'm deeply interested in securing digital assets, automating development processes, and building scalable cloud infrastructures.</p>
+
+        <p>With a strong foundation in security principles, cloud services, and automation tools, I'm eager to contribute to projects that make technology safer and more efficient.</p>
+
+        <p>Currently, I'm pursuing my <strong>B.Tech in Computer Science & Engineering</strong> and constantly learning new technologies to stay ahead in the fast-evolving tech world.</p>
+    </div>
+
+    <footer>
+        © 2025 Nageshwar. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

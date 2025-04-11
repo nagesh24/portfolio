@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications - Aarav Mehta</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ff88;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .certifications-container {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #111;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff88;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .certificates {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .certificate {
+      background-color: #0a0a0a;
+      border: 2px solid #00ff88;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .certificate:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ff88;
+    }
+
+    .certificate img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .certificate a {
+      text-decoration: none;
+      color: #00ff88;
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: block;
+      margin-top: 10px;
+      transition: color 0.3s;
+    }
+
+    .certificate a:hover {
+      color: #00cc6a;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="certifications-container" data-aos="fade-up" data-aos-duration="1000">
+    <h1>My Certifications</h1>
+
+    <div class="certificates">
+
+      <div class="certificate">
+        <img src="gfgIMG.png" alt="Certificate 1">
+        <a href="https://media.geeksforgeeks.org/courses/certificates/a708e770405ce88b38f1fb650640ac49.pdf" target="_blank">Data Structures and Algorithms</a>
+      </div>
+
+      <div class="certificate">
+        <img src="courseraIMG.png" alt="Certificate 2">
+        <a href="https://www.coursera.org/account/accomplishments/verify/SCNR4MCJRQF4" target="_blank">Build AI Apps with ChatGPT</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Aarav Mehta. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
